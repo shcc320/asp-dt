@@ -1,0 +1,15 @@
+proven optimal; training errors 11/105; nodes 7
+Depth parameter counts levels (root = 1).
+node 1: floor(100 * petal length) <= 445
+  TRUE (<=):
+    node 2: floor(100 * petal width) <= 75
+      TRUE (<=):
+        node 4: predict setosa
+      FALSE (>):
+        node 5: predict versicolor
+  FALSE (>):
+    node 3: floor(100 * petal width) <= 145
+      TRUE (<=):
+        node 6: predict versicolor
+      FALSE (>):
+        node 7: predict virginica

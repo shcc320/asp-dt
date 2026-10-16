@@ -1,0 +1,41 @@
+{
+  "status": "proven optimal",
+  "costs": [
+    11,
+    7
+  ],
+  "nodes": {
+    "1": {
+      "feature": 3,
+      "threshold": 445
+    },
+    "3": {
+      "feature": 4,
+      "threshold": 145
+    },
+    "2": {
+      "feature": 4,
+      "threshold": 75
+    },
+    "5": {
+      "leaf": true,
+      "class": 1
+    },
+    "7": {
+      "leaf": true,
+      "class": 2
+    },
+    "4": {
+      "leaf": true,
+      "class": 0
+    },
+    "6": {
+      "leaf": true,
+      "class": 1
+    }
+  },
+  "training_errors": 11,
+  "test_errors": 4,
+  "test_count": 45,
+  "alpha": 100
+}

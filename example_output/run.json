@@ -1,0 +1,31 @@
+{
+  "command": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-m",
+    "clingo",
+    "/workspace/scratch/959c1bd1fdb6/work/iris_repo/encoding.lp",
+    "/workspace/scratch/959c1bd1fdb6/work/iris_repo/output/train.lp",
+    "--opt-mode=optN",
+    "--models=1",
+    "--outf=2",
+    "--seed=1",
+    "--time-limit=60",
+    "-c",
+    "max_depth=3",
+    "-c",
+    "size_tiebreak=1",
+    "-c",
+    "root_feature=0",
+    "-c",
+    "banned_feature=0",
+    "-c",
+    "forbid_below=1"
+  ],
+  "max_depth_levels": 3,
+  "max_depth_edges": 2,
+  "size_tiebreak": true,
+  "root_feature": 0,
+  "banned_feature": 0,
+  "forbid_below": 1,
+  "returncode": 0
+}
